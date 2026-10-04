@@ -14,5 +14,9 @@
     "interactive"
   ],
   "license": "MIT",
-  "icon": "./icon.png"
+  "icon": "./icon.png",
+  "homepage": "https://github.com/RachaelQuisel/generate-financial-dummy-data",
+  "repository": "https://github.com/RachaelQuisel/generate-financial-dummy-data",
+  "documentationUrl": "https://github.com/RachaelQuisel/generate-financial-dummy-data#readme",
+  "supportUrl": "https://github.com/RachaelQuisel/generate-financial-dummy-data/issues"
 }
