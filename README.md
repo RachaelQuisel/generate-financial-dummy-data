@@ -20,3 +20,7 @@ Read [how this works](Generate-Financial-Dummy-Data-HowItWorks-2026-10-03.md) fo
 Read [two worked examples](skills/generate-financial-dummy-data/references/documented-examples.md) adapted from project documentation. One uses a recurring program across two funding years. The other keeps requested, recommended, and awarded amounts separate. The examples use fictional names and financial values.
 
 The icon was created with Ghibli Icon Maker. It follows the Soft Index style. `scripts/render_icon.py` uses the original drawing functions. Python and Pillow are required to render the icon.
+
+## License
+
+MIT. See [LICENSE](LICENSE).

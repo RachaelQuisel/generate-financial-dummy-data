@@ -5,6 +5,9 @@ description: Create test grants through a conversation. Ask for missing details 
 
 # Generate Financial Dummy Data
 
+Read [the conversation and writing rules](references/conversation-and-writing.md) before responding. Apply them to all user-facing text.
+
+
 Create the test grants the user requests. Keep this workflow limited to grants and required supporting records. Do not create payouts or bills.
 
 ## Start the conversation
