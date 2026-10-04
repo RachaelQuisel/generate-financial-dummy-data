@@ -11,6 +11,8 @@ Create the test grants the user requests. Keep this workflow limited to grants a
 
 Read [references/conversation.md](references/conversation.md) for the opening questions and follow-up examples.
 
+For a similar grant scenario, read [references/documented-examples.md](references/documented-examples.md). It shows a recurring Program across funding years and separate requested, recommended, and awarded amounts. Use the reasoning to choose questions and checks. Do not copy its fictional values or assume its data model applies to every system.
+
 - In the first reply, acknowledge any details the user supplied. Ask up to three questions about missing information. Respond with questions rather than a plan alone.
 - If the user supplied no details, ask where the grants should go, how many are needed, and which amounts and currency to use.
 - Wait for the answers before any work that depends on them. Time passing does not answer a question.
