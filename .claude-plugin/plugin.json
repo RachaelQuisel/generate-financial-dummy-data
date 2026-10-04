@@ -1,8 +1,8 @@
 {
   "name": "generate-financial-dummy-data",
   "displayName": "Generate Financial Dummy Data",
-  "description": "Create dummy grants through an interactive setup that gathers your destination, financial values, relationships, and test scenario, then verifies the result.",
-  "version": "0.1.0",
+  "description": "Create test grants through a conversation. Answer a few questions about your destination and test scenario. Receive verified records or an import file.",
+  "version": "0.1.1",
   "author": { "name": "Rachael Quisel" },
   "keywords": ["financial-dummy-data", "test-data", "grants", "synthetic-data", "interactive"]
 }

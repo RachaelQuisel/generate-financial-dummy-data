@@ -1,16 +1,20 @@
 # Generate Financial Dummy Data
 
-*Dummy grants, built for the test you actually want to run.*
+Start with `$generate-financial-dummy-data` and describe the grants you need. If your request has no details, the plugin asks three questions:
 
-I built this plugin to turn a grant scenario into usable test records through a conversation. It asks for the missing details before creating anything: destination, quantity, financial values, relationships, dates, and grant states.
+1. Where should I put the test grants: in an application or in a file?
+2. How many grants do you need?
+3. What amounts and currency should I use?
 
-- Start with a connected system or request an import file.
-- Supply exact amounts or rules for generating them.
-- Reuse existing relationships or request fictional supporting records.
-- Receive record links or a file with a clear verification result.
+It waits for your answers. It then asks about the remaining details your test needs. These may include organizations, dates, grant states, or file columns. It keeps the answers you already supplied.
 
-Invoke `generate-financial-dummy-data` and describe your scenario. For example: “Help me create three dummy grants for a fictional organization, with awards of 250, 500, and 750 USD.” The setup will ask where they should go and which other details the target needs.
+- You can choose an application or an import file.
+- You can provide exact amounts or rules for generating them.
+- You can reuse existing relationships or request fictional supporting records.
+- You receive record links or a file with the checks performed.
 
-This version creates grants and required supporting records. It does not create payouts or bills. Connected-system use requires available tools and access to the selected destination; the plugin does not bundle credentials or connectors.
+This version creates grants and required supporting records. It does not create payouts or bills. Application output requires tools and access to the selected destination. The plugin does not include credentials or connections to other services.
 
-The hand-drawn icon follows the Soft Index style. `scripts/render_icon.py` uses the original geometry and rendering helpers from Ghibli Icon Maker. Render it with Python and Pillow installed.
+Read [how this works](Generate-Financial-Dummy-Data-HowItWorks-2026-10-03.md) for the full process.
+
+The icon was created with Ghibli Icon Maker. It follows the Soft Index style. `scripts/render_icon.py` uses the original drawing functions. Python and Pillow are required to render the icon.
