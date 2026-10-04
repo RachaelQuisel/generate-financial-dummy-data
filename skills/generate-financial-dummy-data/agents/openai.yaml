@@ -1,0 +1,7 @@
+interface:
+  display_name: "Generate Financial Dummy Data"
+  short_description: "Create dummy grants through a guided setup"
+  icon_small: "./assets/generate-financial-dummy-data.png"
+  icon_large: "./assets/generate-financial-dummy-data.png"
+  brand_color: "#D3BECD"
+  default_prompt: "Use $generate-financial-dummy-data to help me create dummy grants; ask me for the destination, quantity, financial values, relationships, and test scenario details you need before running."

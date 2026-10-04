@@ -1,0 +1,19 @@
+{
+  "name": "generate-financial-dummy-data",
+  "version": "0.1.0",
+  "description": "Interactively generate dummy grant records or an import file for your chosen test scenario.",
+  "author": { "name": "Rachael Quisel" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Generate Financial Dummy Data",
+    "shortDescription": "Create dummy grants through a guided setup",
+    "longDescription": "Choose your destination and test scenario through a conversational setup. Supply grant amounts, relationships, dates, and states, then get verified dummy grants or an import file. This version covers grants and required supporting records.",
+    "developerName": "Rachael Quisel",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": "Use $generate-financial-dummy-data to help me create dummy grants; ask for the details you need before running.",
+    "brandColor": "#D3BECD",
+    "composerIcon": "./assets/generate-financial-dummy-data.png",
+    "logo": "./assets/generate-financial-dummy-data.png"
+  }
+}
